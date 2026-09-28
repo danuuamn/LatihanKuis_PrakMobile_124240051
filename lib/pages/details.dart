@@ -30,7 +30,7 @@ class DetailPage extends StatelessWidget {
               
               Text(
                 bookModel.title,
-                style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.deepPurple),
+                style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.deepPurple),
               ),
               const SizedBox(height: 8),
               
@@ -41,10 +41,10 @@ class DetailPage extends StatelessWidget {
               const SizedBox(height: 16),
 
               Text("Tahun Rilis: ${bookModel.year}"),
-              const SizedBox(height: 8),
+              const SizedBox(height: 10),
               
               Text("Genre: ${bookModel.genre}"),
-              const SizedBox(height: 8),
+              const SizedBox(height: 10),
               
               Text("Penerbit: ${bookModel.publisher}"),
               const SizedBox(height: 8),

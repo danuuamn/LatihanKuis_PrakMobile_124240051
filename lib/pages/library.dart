@@ -13,8 +13,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurple,
         title: const Text("Daftar Buku", style: TextStyle(color: Colors.white)),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.logout, color: Colors.white),
+          ElevatedButton(
             onPressed: () {
               Navigator.pushReplacement(
                 context,
@@ -23,6 +22,7 @@ class Home extends StatelessWidget {
                 ),
               );
             },
+            child: const Text("Logout", style: TextStyle(color: Color.fromARGB(255, 255, 55, 55)))
           ),
         ],
       ),
