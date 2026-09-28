@@ -1,2 +1,3 @@
-# LatihanKuis_PrakMobile_124240051
-Septo Danu Ayman (124240051)
+# latihan_kuis
+
+A new Flutter project.
