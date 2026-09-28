@@ -52,7 +52,7 @@ class DetailPage extends StatelessWidget {
               Text("Jumlah Halaman: ${bookModel.pages}"),
               const SizedBox(height: 8),
               
-              Text("Rating: ${bookModel.rating} / 5.0"),
+              Text("Rating: ${bookModel.rating} / 5.0", style: const TextStyle(color: Colors.deepPurple)),
               const SizedBox(height: 8),
               
               Text("Link Buku: ${bookModel.bookUrl}", style: const TextStyle(color: Colors.deepPurple)),
